@@ -15,6 +15,9 @@ install-hooks:
 test:
 	npm run test
 
+test-integration:
+	npm run test-integration
+
 lint:
 	npm run lint
 	cd docker/ambulance-analytics-sandbox && npm run lint && cd ..
